@@ -6,10 +6,295 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food-bazz</title>
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font-awosome  -->
+    <script src="https://kit.fontawesome.com/1b1e4e37d4.js" crossorigin="anonymous"></script>
+
+    <!-- css link sheet  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+    <!-- header section code start from here -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light font site-font-family nav-bg-color">
+            <div class="container">
+                <a class="navbar-brand d-inline-flex" href="#">
+                    <img src="images/logo.svg" alt="">
+                    <span class="ms-3 fs-3 fw-bold logo-text-gradient">FOOD BAZZ</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <p class="mx-auto mb-2 mb-lg-0 location px-4 py-2 rounded-3 custom-shadow-1 ">
+                        <span class="fw-bold">Deliver to:</span>
+                        <span class="mx-2"><i class="fas fa-map-marker-alt icon-color"></i></span>
+                        <span class="px-1">Current location</span>
+                        <span class="fw-bold">Mirpur-2 Bus stand, Dhaka</span>
+                </div>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+
+            </div>
+            </div>
+        </nav>
+
+        <!-- banner section  -->
+        <section class="bg-warning bg-gradient banner-1 py-5">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 col-12">
+                        <div>
+                            <h1>ARE YOU HUNGRY???</h1>
+                            <p>With just a few clicks, order the food of your choice</p>
+                        </div>
+                        <div class="bg-form p-3 mt-5 position-relative rounded-3">
+                            <div class="d-flex mb-4 ps-2">
+                                <a class="me-3 text-white px-3 py-1 bg-warning text-decoration-none rounded-3">
+                                    <i class="fas fa-motorcycle me-2"></i> Delivery
+                                </a>
+                                <a class="px-3 py-1 text-secondary text-decoration-none">
+                                    <i class="fas fa-shopping-bag me-2"></i>Pickup
+                                </a>
+                            </div>
+                            <hr>
+                            <form class="ps-2">
+                                <span class=" ">
+                                    <input class="px-3 py-2 w-75 border-0 custom-shadow-1 rounded-3" type="search"
+                                        placeholder="Enter Your Address">
+                                    <i class="fas fa-map-marker-alt text-warning position-absolute "
+                                        style="right: 160px; bottom:29px;"></i>
+                                </span>
+                                <span class="ps-3">
+                                    <a class="text-white bg-warning px-3 py-2 text-decoration-none rounded-3">Find
+                                        Food</a>
+                                </span>
+
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <img class="w-100" src="images/hero-header.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- header section  code end here -->
+    <main>
+        <!-- Offer items -->
+        <section class="container my-5 offer-items">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 position-relative">
+                <div class="col ">
+                    <div class="card h-100 border-0 ">
+                        <img src="images/discount-item-1.png" class="card-img-top rounded-3" alt="...">
+                        <h1 class="position-absolute bg-warning px-3 text-white">20 % OFF</h1>
+                        <div class="card-body p-0">
+                            <h3 class="card-title py-2">Food Vegetable Salad</h3>
+                            <a class="card-text bg-warning text-decoration-none text-white px-2 py-1 rounded-3">6 Days
+                                Remaining</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="images/discount-item-2.png" class="card-img-top rounded-3" alt="...">
+                        <h1 class="position-absolute bg-warning px-3 text-white">30 % OFF</h1>
+                        <div class="card-body p-0">
+                            <h3 class="card-title py-2">Tomato Pudina Salad</h3>
+                            <a class="card-text bg-warning text-decoration-none text-white px-2 py-1 rounded-3">6 Days
+                                Remaining</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="images/discount-item-3.png" class="card-img-top rounded-3" alt="...">
+                        <h1 class="position-absolute bg-warning px-3 text-white">45 % OFF</h1>
+                        <div class="card-body p-0">
+                            <h3 class="card-title py-2">Khandani Dhakaia Shoup</h3>
+                            <a class="card-text bg-warning text-decoration-none text-white px-2 py-1 rounded-3">6 Days
+                                Remaining</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="images/discount-item-4.png" class="card-img-top rounded-3" alt="...">
+                        <h1 class="position-absolute bg-warning px-3 text-white">55 % OFF</h1>
+                        <div class="card-body p-0">
+                            <h3 class="card-title py-2">Khan Vegetable Shoup</h3>
+                            <a class="card-text bg-warning text-decoration-none text-white px-2 py-1 rounded-3">6 Days
+                                Remaining</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workink system -->
+        <section class="system">
+            <h1 class="text-center text-color py-5">How to order the food of your choice</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="">
+                            <i class="fas fa-map-marker-alt  text-warning "></i>
+                        </div>
+                        <div class="py-3">
+                            <h5>Select location</h5>
+                            <p>Choose the location where your food will be delivered.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div>
+                            <i class="fas fa-concierge-bell text-warning"></i>
+                        </div>
+                        <div class="py-3">
+                            <h5>Choose Order</h5>
+                            <p>Choose the location where your food will be delivered.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div>
+                            <i class="fas fa-file-invoice-dollar text-warning"></i>
+                        </div>
+                        <div class="py-3">
+                            <h5>Select location</h5>
+                            <p>Choose the location where your food will be delivered.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div>
+                            <i class="fas fa-pizza-slice text-warning "></i>
+                        </div>
+                        <div class="py-3">
+                            <h5>Select location</h5>
+                            <p>Choose the location where your food will be delivered.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular food carousel -->
+
+        <section class="carousel">
+            <div class="container">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4">
+                                <div class="col">
+                                    <div class="card h-100 border-0">
+                                        <img src="images/Popolar foods/cheese-burger.png" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Cheese Burger</h5>
+                                            <div>
+                                                <i class="fas fa-map-marker-alt  text-warning "></i> <span
+                                                    class="text-warning">Burger
+                                                    Arena</span>
+                                                <h6>$3</h6>
+                                                <div class="card-footer">
+                                                    <a class="text-decoration-none  " href="">Order Now</a>
+                                                </div>
+
+                                            </div>
+                                            <p class="card-text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 border-0">
+                                        <img src="images/Popolar foods/popular food-2.png" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Dancake</h5>
+                                            <p class="card-text">This is a short card.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 border-0">
+                                        <img src="images/Popolar foods/popular food-3.png" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Crispy Sandwitch</h5>
+                                            <p class="card-text">This is a longer card with supporting text below as a
+                                                natural
+                                                lead-in to additional content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 border-0">
+                                        <img src="images/Popolar foods/popular food-4.png" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Toffe's Cake</h5>
+                                            <p class="card-text">This is a longer card with supporting text below as a
+                                                natural
+                                                lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 border-0">
+                                        <img src="images/Popolar foods/popular food-5.png" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Thai Soup</h5>
+
+                                            <p class="card-text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+
+                            <img src="..." class="d-block w-100" alt="...">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

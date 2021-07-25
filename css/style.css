@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.site-font-family{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.logo-text-gradient{
+    background: linear-gradient(to right ,red, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-bg-color{
+    background-color: #EBECF0;
+}
+.custom-shadow-1{
+    box-shadow: inset 1px 1px 2px rgb(170 170 204 / 50%), inset -1px -1px 2px #ffffff;
+}
+
+.location span{
+    font-size: 16px;
+    color:#6c757d;
+}
+.icon-color{
+    color: #64de8f;
+}
+
+/* banner section css start from here */
+
+.banner-1 h1{
+    font-size:65px;
+    font-weight: 900px;
+    color: white;
+}
+
+.banner-1 p{
+    font-size:30px;
+    color: #6c757d;
+}
+.bg-form{
+    background-color: #ebecf0;
+}
+
+/* offer items css code  */
+
+.offer-items h3{
+    color: #6c757d;
+}
+
+.offer-items a{
+font-weight:700;
+font-size: 25px;
+}
+
+/* working system css code  */
+.system{
+    background: linear-gradient(
+180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+text-align: center;
+margin: 100px 0;
+}
+.system i{
+    font-size: 100px;
+}
+.text-color{
+    color: #F17228;
+    font-weight: 600;
+    font-size: 52px;
+}
+
+/* Popular food carousel */
+.card-footer{
+    background-color: #F17228;
+    padding: 8px 47px;
+    font-size: 15px;
+    color: white;   
+}
+
