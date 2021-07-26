@@ -70,10 +70,50 @@ margin: 100px 0;
 }
 
 /* Popular food carousel */
+.carousel h1{
+    margin-bottom: 50px;
+    text-align: center;
+    color: #F17228;
+    font-size: 45px;
+    font-weight: 700;
+}
 .card-footer{
     background-color: #F17228;
-    padding: 8px 47px;
+    padding: 5px 60px;
     font-size: 15px;
-    color: white;   
 }
 
+/* Featured resturants items css code */
+
+.featured-items h1{
+    margin-bottom: 50px;
+    text-align: center;
+    color: #F17228;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.featured-off{
+    padding: 0 10px;
+    border-radius: 20px;
+    margin: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.featured-fast{
+    background-color: #F17228;
+    right: 125px;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    margin-top: 15px;
+}
+.featured-items a{
+    text-decoration: none;
+    color: white;
+    text-align:center;
+    border-radius: 10px;
+    font-size: 25px;
+}
