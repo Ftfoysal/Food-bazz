@@ -6,7 +6,7 @@
 .site-font-family{
     font-family: 'Source Sans Pro', sans-serif;
 }
-.logo-text-gradient{
+.text-gradient{
     background: linear-gradient(to right ,red, orange);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -47,6 +47,9 @@
 .offer-items h3{
     color: #6c757d;
 }
+.offer-items img{
+    border-radius: 15px;
+}
 
 .offer-items a{
 font-weight:700;
@@ -77,13 +80,21 @@ margin: 100px 0;
     font-size: 45px;
     font-weight: 700;
 }
+.carousel img{
+    border-radius: 15px;
+}
 .card-footer{
     background-color: #F17228;
     padding: 5px 60px;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 /* Featured resturants items css code */
+.featured-items{
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
 
 .featured-items h1{
     margin-bottom: 50px;
@@ -125,4 +136,59 @@ margin: 100px 0;
     font-size: 25px;
     padding: 2px 15px;
     font-weight: 600;
+}
+
+
+.search-food img{
+    border-radius: 50%;
+}
+
+/* Download section css code  */
+.download-section{
+    padding-top: 60px;
+}
+.download-section-top{
+    background-color:white;
+    border-radius: 10px;
+    padding:20px 0;
+}
+.download-section-end h1{
+    color: #F17228;
+}
+
+/* Order section css code start here */
+.order h1{
+    font-weight: 700;
+}
+
+/* Main order section css code start from here */
+
+.main-order{
+    background: url(../images/teahub.io-junk-food-wallpaper-2552074.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main-order h1{
+    font-size: 56px;
+}
+
+/* footer top-cities css code start from here  */
+.main-footer{
+    background-color: rgb(39, 38, 38);
+}
+.top-cities a{
+text-decoration: none;
+color: white;
+list-style: none;
+}
+/* main footer-2 secetion  start from here */
+.main-footer-2{
+    background-color: rgb(39, 38, 38);
+}
+.footer-2 a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
 }
